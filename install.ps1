@@ -37,5 +37,5 @@ Invoke-WebRequest "$base/starship-prompt.ps1"              -OutFile "$pwshDir\st
 Invoke-WebRequest "$base/Microsoft.PowerShell_profile.ps1" -OutFile "$PROFILE"
 
 # --- Done! ---
-Write-Host "`n✅ Starship and PowerShell configs installed successfully!" -ForegroundColor Green
-Write-Host "`n🔁 Please restart PowerShell to activate your custom prompt." -ForegroundColor Yellow
+Write-Host "`n✅ PowerShell configs installed" -ForegroundColor Green
+
